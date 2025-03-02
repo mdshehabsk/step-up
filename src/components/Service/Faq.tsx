@@ -15,8 +15,9 @@ const FaqItem: FC<{
         <button
           className="w-full bg-white rounded-lg p-4 flex justify-between items-center text-left shadow-sm hover:bg-gray-50 transition-colors"
           onClick={onClick}
+          aria-label="faq open modal down button"
         >
-          <span className="font-medium text-gray-800">{question}</span>
+          <span aria-hidden className="font-medium text-gray-800">{question}</span>
           <ChevronDown
             className={`text-blue-600 transition-transform duration-300 ${
               isOpen ? "rotate-180" : ""

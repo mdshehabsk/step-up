@@ -203,6 +203,7 @@ const JobApplicationForm: React.FC<{jobPosition: string}> = ({jobPosition}) => {
           {/* Submit Button */}
           <div className="mt-8 flex justify-center">
             <button
+            aria-label='apply for job button'
               type="submit"
               className="bg-blue-400 hover:bg-blue-500 text-white font-medium py-2 px-12 rounded focus:outline-none focus:ring-2 focus:ring-blue-300 transition duration-300"
             >

@@ -368,7 +368,7 @@ const JobPostingPage = async ({
             </div>
 
             <div className="mt-6">
-              <Link href='#apply-now' className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md transition duration-300">
+              <Link aria-label="apply now job button" href='#apply-now' className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md transition duration-300">
                 Apply Now →
               </Link>
             </div>

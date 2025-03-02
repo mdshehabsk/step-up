@@ -114,13 +114,13 @@ const ContentSolution = () => {
       <div className="flex justify-end gap-2 my-2 md:hidden">
       <button
         onClick={() => swiperRef.current?.slidePrev()}
-       
+        aria-label="swiper carousel prev button"
       >
         <ArrowLeft/>
       </button>
       <button
         onClick={() => swiperRef.current?.slideNext()}
-        
+             aria-label="swiper carousel next button"
       >
        <ArrowRight/>
       </button>

@@ -110,7 +110,7 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 bg-black  z-20">
       <div className="flex justify-between items-center py-4 px-4 md:max-w-[75%]  mx-auto  ">
-        <Link href='/' >
+        <Link aria-label="logo image" href='/' >
         <Image src={logoImage} alt="logo-image" width={180} />
         </Link>
         <div className="flex gap-3 md:hidden ">
@@ -121,23 +121,23 @@ const Navbar = () => {
           />
         </div>
         <div className="md:flex items-center hidden gap-5  ">
-          <Link className={` text-2xl font-bold ${pathname === '/service' ? "text-[#67C7FE]" : "text-white" } `} href="/service">
+          <Link aria-label="service"  className={` text-2xl font-bold ${pathname === '/service' ? "text-[#67C7FE]" : "text-white" } `} href="/service">
             
             Service
           </Link>
-          <Link className={` text-2xl font-bold ${pathname === '/about-us' ? "text-[#67C7FE]" : "text-white" } `} href="/about-us">
+          <Link aria-label="about-us"  className={` text-2xl font-bold ${pathname === '/about-us' ? "text-[#67C7FE]" : "text-white" } `} href="/about-us">
             
             About Us
           </Link>
-          <Link className={` text-2xl font-bold ${pathname === '/contact-us' ? "text-[#67C7FE]" : "text-white" } `} href="/contact-us">
+          <Link aria-label="contact us"  className={` text-2xl font-bold ${pathname === '/contact-us' ? "text-[#67C7FE]" : "text-white" } `} href="/contact-us">
             
             Contact Us
           </Link>
-          <Link className={` text-2xl font-bold ${pathname === '/career' ? "text-[#67C7FE]" : "text-white" } `} href="/career">
+          <Link aria-label="career"  className={` text-2xl font-bold ${pathname === '/career' ? "text-[#67C7FE]" : "text-white" } `} href="/career">
             
             Career
           </Link>
-          <Link href="tel:+8809611678939" className="text-[#67C7FE] text-2xl font-bold">
+          <Link aria-label="telephone number"  href="tel:+8809611678939" className="text-[#67C7FE] text-2xl font-bold">
             
             +8809611678939
           </Link>

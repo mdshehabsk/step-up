@@ -16,7 +16,7 @@ const JumpStartUp = () => {
           {/* Left Section - Marketing Content */}
           <h2 className='text-7xl text-center' >Jump-start your career with StepUp</h2>
           <p className='text-xl w-1/2' >If you’re enthusiastic about internet marketing, web design, or web development, we’d love to hear from you!</p>
-          <Link href='/career' className='bg-[#6433FF] text-white w-[300px] py-4 text-2xl' >Join Our Team</Link>
+          <Link aria-label='join our team' href='/career' className='bg-[#6433FF] text-white w-[300px] py-4 text-2xl' >Join Our Team</Link>
         </div>
       </div>
       <div className="absolute inset-0 bg-black bg-opacity-60 -z-10"></div>

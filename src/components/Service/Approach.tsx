@@ -21,11 +21,11 @@ const Approach = () => {
           <div className="my-2" >
             <p className="text-xl" >Includes:</p>
             <div className="flex gap-3 flex-wrap my-2">
-                <button className="px-2 rounded-full border border-black/30 text-lg" >Creative</button>
-                <button className="px-2 rounded-full border border-black/30 text-lg" >Digital Marketing</button>
-                <button className="px-2 rounded-full border border-black/30 text-lg" >Email + SMS</button>
-                <button className="px-2 rounded-full border border-black/30 text-lg" >Website Development</button>
-                <button className="px-2 rounded-full border border-black/30 text-lg" >SEO</button>
+                <button aria-label="what we do and our service"  className="px-2 rounded-full border border-black/30 text-lg" >Creative</button>
+                <button aria-label="what we do and our service"  className="px-2 rounded-full border border-black/30 text-lg" >Digital Marketing</button>
+                <button  aria-label="what we do and our service" className="px-2 rounded-full border border-black/30 text-lg" >Email + SMS</button>
+                <button  aria-label="what we do and our service" className="px-2 rounded-full border border-black/30 text-lg" >Website Development</button>
+                <button  aria-label="what we do and our service" className="px-2 rounded-full border border-black/30 text-lg" >SEO</button>
             </div>
           </div>
         </div>

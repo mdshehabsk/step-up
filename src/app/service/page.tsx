@@ -155,7 +155,7 @@ const ServicePage = () => {
                   </div>
                 </div>
 
-                <button className="w-full p-3 bg-blue-500 hover:bg-blue-600 rounded text-white font-medium transition duration-300">
+                <button aria-label="get-started" className="w-full p-3 bg-blue-500 hover:bg-blue-600 rounded text-white font-medium transition duration-300">
                   Get Started
                 </button>
               </form>

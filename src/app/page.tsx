@@ -72,8 +72,8 @@ export default function Home() {
               <div className="w-full h-px bg-white  "></div>
             </div>
             <div className="px-4 py-2 basis-full md:basis-6/12 xl:basis-3/12  ">
-              <button className=" flex gap-2 items-center text-white border-white border rounded-sm  px-12 py-3 group transition hover:bg-[#088eff] hover:border hover:border-[#088eff] w-full ">
-                Get Started{" "}
+              <button aria-label="get-started" className=" flex gap-2 items-center text-white border-white border rounded-sm  px-12 py-3 group transition hover:bg-[#088eff] hover:border hover:border-[#088eff] w-full ">
+                Get Started
                 <MdOutlineArrowRightAlt className="group-hover:ml-2 hidden md:block " />
               </button>
             </div>
