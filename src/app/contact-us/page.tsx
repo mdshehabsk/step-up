@@ -1,6 +1,12 @@
 import Image from "next/image";
 import contactBgPhoto from "@/image/contact/bg-contact.webp";
 import ChatWithUs from "@/components/contact/ChatWithUs";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Contact',
+  description: 'Step Up Contact page',
+}
 const page = () => {
   return (
     <div>

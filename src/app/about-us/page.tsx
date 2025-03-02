@@ -6,6 +6,12 @@ import AchievementsSection from "./Achievements";
 import WhatWeDo from "@/components/About/WhatWeDo";
 import JumpStartUp from "@/components/About/JumpStartUp";
 import OurTeamMember from "@/components/About/OurTeamMember";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About',
+  description: 'Step Up About page',
+}
 const AboutUs = () => {
   return (
     <div>

@@ -3,6 +3,12 @@ import careerImage from '@/image/career-page/career.webp'
 import followUs from '@/image/career-page/follow-us.webp'
 import OurValues from "@/components/career/OurValues";
 import OpenPositions from "@/components/career/OpenPosition";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Career',
+  description: 'Step Up Career page',
+}
 const page = () => {
   return (
    <>

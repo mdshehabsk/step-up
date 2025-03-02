@@ -8,6 +8,12 @@ import WebsiteDevelopment from "@/components/Service/WebsiteDevelopment";
 import EmailAndSMSMarketing from "@/components/Service/EmailAndSMSMarketing";
 import SearchEngineOptimization from "@/components/Service/SearchEngineOptimization";
 import FAQ from "@/components/Service/Faq";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Service',
+  description: 'Step Up Service page',
+}
 const ServicePage = () => {
   return (
     <>

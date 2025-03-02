@@ -11,11 +11,18 @@ import ServiceDetails from "@/components/ServiceDetails";
 import MarketingPhilosophy from "@/components/MarketingPhilosophy";
 import FounderSection from "@/components/FounderSection";
 import TeamAtGlance from "@/components/TeamAtGlance";
+import type { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: 'Home',
+  description: 'Step Up Home page',
+}
+ 
 
 export default function Home() {
   return (
     <>
+
       <div className="relative w-full h-screen overflow-hidden">
         <video
           className="absolute inset-0 w-full h-full object-cover"
